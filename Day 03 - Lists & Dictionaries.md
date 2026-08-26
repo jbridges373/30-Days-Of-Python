@@ -1,10 +1,4 @@
-Day 3 - Lists & Dictionaiers
-
-Code https://github.com/codingforentrepreneurs/30-days-of-python
-github: cfe.sh/github
-
-## Reference
-_Coming soon_
+# Day 3 - Lists & Dictionaiers
 
 __Declare__
 ```
