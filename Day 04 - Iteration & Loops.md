@@ -4,9 +4,8 @@
 
 ### The `for` loop:
 ```
-🕹 % python3
-Python 3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) 
-[Clang 6.0 (clang-600.0.57)] on darwin
+PS C:\Users\JohnBridges> python
+Python 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>> my_list = [1,2,3,4,5]
 >>> my_list[0]
