@@ -18,6 +18,13 @@ def format_msg(my_name="Justin", my_website="cfe.sh"):
 
 ## On Terminal
 
+PS C:\Users\JohnBridges\dev\30Days\Day 07> python -i main.py
+>>> my_msg = format_msg()
+>>> print(my_msg)
+Hello Justin,
+Thank you for joining cfe.sh. We are very
+happy to have with us.
+
 >>> names = ["Justin", "John", "David", "Sue"]
 >>> for name in names:
 ...     this_person_msg = format_msg(my_name=name)
