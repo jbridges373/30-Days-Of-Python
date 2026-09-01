@@ -1,5 +1,7 @@
 # Day 7 - Functions & Python Modules
 
+## On VS code
+
 def my_print(txt):
     print(txt)
 
@@ -13,6 +15,31 @@ def format_msg(my_name="Justin", my_website="cfe.sh"):
     my_msg = msg_template.format(name=my_name, website=my_website)
     # print(my_msg)
     return my_msg
+
+## On Terminal
+
+>>> names = ["Justin", "John", "David", "Sue"]
+>>> for name in names:
+...     this_person_msg = format_msg(my_name=name)
+...     print(this_person_msg)
+...
+Hello Justin,
+Thank you for joining cfe.sh. We are very
+happy to have with us.
+
+Hello John,
+Thank you for joining cfe.sh. We are very
+happy to have with us.
+
+Hello David,
+Thank you for joining cfe.sh. We are very
+happy to have with us.
+
+Hello Sue,
+Thank you for joining cfe.sh. We are very
+happy to have with us.
+
+>>>
 
 """
 "{} {}".format("abc", 123)
