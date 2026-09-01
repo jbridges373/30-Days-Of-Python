@@ -1,0 +1,62 @@
+# Day 7 - Functions & Python Modules
+
+## On VS code
+
+def my_print(txt):
+    print(txt)
+
+
+msg_template = """Hello {name},
+Thank you for joining {website}. We are very
+happy to have you with us.
+""" # .format(name="Justin", website='cfe.sh')
+
+def format_msg(my_name="Justin", my_website="cfe.sh"):
+    my_msg = msg_template.format(name=my_name, website=my_website)
+    # print(my_msg)
+    return my_msg
+
+## On Terminal
+
+PS C:\Users\JohnBridges\dev\30Days\Day 07> python -i main.py
+>>> my_msg = format_msg()
+>>> print(my_msg)
+Hello Justin,
+Thank you for joining cfe.sh. We are very
+happy to have with us.
+
+>>> names = ["Justin", "John", "David", "Sue"]
+>>> for name in names:
+...     this_person_msg = format_msg(my_name=name)
+...     print(this_person_msg)
+...
+Hello Justin,
+Thank you for joining cfe.sh. We are very
+happy to have with us.
+
+Hello John,
+Thank you for joining cfe.sh. We are very
+happy to have with us.
+
+Hello David,
+Thank you for joining cfe.sh. We are very
+happy to have with us.
+
+Hello Sue,
+Thank you for joining cfe.sh. We are very
+happy to have with us.
+
+>>>
+
+"""
+"{} {}".format("abc", 123)
+"{1} {0}".format("abc", 123)
+"{name} {number}".format(name="abc", number=123)
+
+"{} {name} {number}".format("another", name="abc", number=123)
+
+"""
+
+
+def base_function(*args, **kwargs):
+    print(args, kwargs)
