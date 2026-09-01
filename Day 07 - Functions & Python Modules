@@ -1,4 +1,4 @@
-# Functions & Python Modules
+# Day 7 - Functions & Python Modules
 
 def my_print(txt):
     print(txt)
