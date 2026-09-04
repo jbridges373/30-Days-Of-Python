@@ -10,11 +10,11 @@ class Animal:
     def set_noise(self, new_noise):
         self.noise = new_noise
         return self.noise
-    def get_color(self):
-        return self.color
-    def set_color(self, new_color):
-        self.color = new_color
-        return self.color
+    def get_colour(self):
+        return self.colour
+    def set_colour(self, new_colour):
+        self.colour = new_colour
+        return self.colour
     
 
 class Wolf(Animal):
@@ -22,4 +22,4 @@ class Wolf(Animal):
 
 
 class BabyWolf(Wolf):
-    color = "yellow"
+    colour = "yellow"
